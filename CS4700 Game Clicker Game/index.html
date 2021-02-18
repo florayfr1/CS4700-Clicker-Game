@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Life 'til Space</title>
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+  </head>
+  <body>
+    <script type="text/javascript" src="main.js"></script>
+    <h1>Life 'til Space</h1>
+    <p>Take your time with your choices and cherish your childhood, you never know how much you will need LOVE when your family is no longer with you...</p>
+    <div class="container">
+      <div id = "notifications">
+        <ol id="events" style="list-style-type: none"> 
+          
+          <li>Happy Birthday! Welcome to the world.</li>
+        </ol>
+      </div>
+
+      <ol class="stats" style="list-style-type: none">
+        
+        <li title= "Your current age"> Age: <span id = "age"></span></li>
+
+        <li title= "This is how much love you have given or recevied throughout your life. &#x0aIt will be important in adulthood." >Love: <span id = "love" ></span></li>
+
+        <li title= "Your knowledge and skills can help you in the &#x0amost unexpected situations..." style="display:none" id = "knowStat">Knowledge: <span  
+        id = "knowledge" ></span></li>
+
+        <li title= "Money is important, &#x0abut not the most important thing..." style="display:none" id = "moneyStat">Money: <span id = "money"  ></span></li>
+
+        <li title= "Make sure your energy is full before fighting" style="display:none" id = "healthStat">Health: <span id = "health"  ></span></li>
+
+        <li class="inventory" style="display:none">Inventory: </li>
+        <ul style="display:none" class="inventory" id= "inventoryStat" style="list-style-type: none">
+          <li>All your tools will be here!</li>
+          <li>------</li>
+        </ul>
+      </ol>
+      
+      
+      <div id="buttons">
+					<button title= "Let's see if someone can figure out what you want. 5% chance of getting extra love." id = "cryB" style="display:block"
+          onClick="action('cry')" >Cry</button>
+
+        
+        
+          <button title= "You can never go wrong with a hug! 100% chance of getting love!" id = "hugB" style="display:none"
+          onClick="action('hug')">Hug</button>
+          
+
+        
+          <button id = "kissB" style="display:none" title= "Who we gonna kiss? 30% of getting extra lovin' from someone special."
+          onClick="action('kiss')">Kiss</button>
+    
+
+    
+          <button id = "playB" style="display:none" title= "Let's learn and have fun!"
+          onClick="action('play')">Play</button>
+    
+
+       
+          <button id = "studyB" style="display:none" title= "School is important!"
+          onClick="action('study')">Study</button>
+       
+        
+          <button id = "allowB" style="display:none" title= "Money, money, money... Good but it is not everything..."
+          onClick="action('allowance')">Ask for allowance</button>
+
+
+  
+          <button id = "shopB" style="display:none" title= "Let's take a trip to the mall and see what we find."
+          onClick="action('shop')">Shop (-$30)</button>
+        
+
+          <button id = "dateB" style="display:none" title= "Awkward teen romance or high school sweetheart?"
+          onClick="action('date')">Date</button>
+
+
+      
+          <button id = "qtB" style="display:none" title= "Time does not forgive, your parent are getting old. 40% get more love"
+          onClick="action('qualityTime')">Quality Time</button>
+      
+         
+          <button style="display:none" title= "Time to test your luck... Good luck! 1% chance of getting extremely rare tools, and 30% getting rare tool."
+          id = "drawB" onClick="action('draw')">Draw a Tool (-300 Love)</button>
+       
+      
+          <button style="display:none" title= "You might run into something helpful... or something scary."
+          id = "exploreB" onClick="action('explore')">Explore </button>
+				
+        <img src="pics/baby.PNG" style="width:100px;height:150px;display:block" alt="baby" id = "baby" align = "right">
+
+        <img src="pics/toddler.PNG" style="width:150px;height:200px;display:none" alt="toddler" id = "toddler" align = "right">
+
+        <img src="pics/kid.PNG" alt="kid" id = "kid" style="width:140px;height:250px;display:none" align = "right">
+
+        <img src="pics/preteen.PNG" alt="preteen" id = "preteen" style="width:140px;height:280px;display:none" align = "right">
+
+        <img src="pics/teen.PNG" alt="teen" id = "teen" style="width:160px;height: 300px;display:none" align = "right">
+
+        <img src="pics/aliens.PNG" style="width:400px;height:200px;display:none" alt="aliens" id = "aliens" align = "right" onclick="aliensBouns();" onmouseover="this.style.cursor='pointer';" title="This is a secret bonus... Click Me">
+
+        <img src="pics/ufo.PNG" style="width:230px;height:320px;display:none" alt="ufo" id = "ufo" align = "right">
+
+      </div>
+
+
+
+  
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times; </span> 
+          
+          
+          <img src="pics/monster1.PNG" alt="monster1" id = "monster1" style="width:400px;height:280px;display:none" align = "right">
+
+          <img src="pics/monster2.PNG" alt="monster2" id = "monster2" style="width:400px;height:280px;display:none" align = "right">
+
+          <img src="pics/monster3.PNG" alt="monster3" id = "monster3" style="width:400px;height:280px;display:none" align = "right">
+          
+          <div style="color:black;">
+          <ol id= "notificationList" style="list-style-type: none" >
+            <li>Start fighting!!! End fight in 10 rounds. </li>
+            <li>------</li>
+          </ol>
+          <div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
+
+<!-- Comments -->

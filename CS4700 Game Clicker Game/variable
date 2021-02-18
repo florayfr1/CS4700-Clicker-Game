@@ -1,0 +1,38 @@
+love
+loveRate
+money
+knowledge
+knowledgeRate
+attack
+health
+age
+
+Tasks 
+***For testing purposes, I make 2 clicks a year***
+
+  Emily:
+    -change colors for notifications
+    - If you have enough knowledge, you will find a map or book that you understand that will lead you to more tools
+        - 500 knowledge to get rare item; 300-500 common item 
+        - 700 extremely rare; 500 - 700 rare
+        -(check for duplicate, push on inventory)
+    -finish  the tools balancing excel
+    -write the writeup
+
+  Flora:
+    - attack (basically just finish the fight part)
+    - creating enemy
+    - Head injury to decrease the knowledge, if you lose,this happens
+
+  CHECKLIST:
+    - change back the click 52 per age (change cost of drawings)
+        -drawing 500
+    - love start by 0
+    - change age back to 0
+  
+  4. Excel calculating item's stats (balancing)
+    - shop items
+    - tools 
+    - actions
+    
+

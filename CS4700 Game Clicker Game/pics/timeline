@@ -1,0 +1,51 @@
+Age 0-2 (52 clicks per year)               
+  (1 - 52)  Cry ->
+    10% chance Love+5
+  (10 - 52) Hug -> 
+      Love+1   
+
+Age 3-4 
+  Hug
+  Kiss -> 
+    Love+1 or 30% Love+2
+
+Age 5-9 
+  Hug
+  Kiss
+  Play ->
+    Knowledge+1
+  Ask for Allowance ->
+    Money+(0-10)
+
+Age 10 -14
+  Hug 
+  Study ->
+    Knowledge+1
+  Quality Time ->
+    Love+3 or 40% Love +5
+  Allowance
+    Money+(10-20)
+  Shop (10% after every click) ->
+    gain obj that increase Love production OR increase total Health
+
+Age 15 -17
+  Hug 
+  Study
+  Quality Time ->
+    Love+3 or 50% Love +5
+  Allowance
+    Money+(20-30)
+  Date ->
+    10% meet Mr/Mrs.Right Love+1/sec
+  Shop
+
+Age 18+ (Alien Event)
+  Drawing (Gain tools)
+  Enter Fight/Game ->
+    encounter events to gain tools/fight
+    Age+1
+
+
+If you have enough knowledge, you will find a map or book that you understand that will lead you to more tools
+
+Head injury to decrease the knowledge, if you lose,this happens
